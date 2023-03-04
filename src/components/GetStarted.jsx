@@ -52,8 +52,11 @@ const GetStarted = () => {
                         textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our team of experienced designers and developers work closely with you to understand your vision and create a custom design that reflects your brand and messaging. We use the latest web development technologies to ensure that your site is fast, secure, and optimized for search engines.
-                    </CustomTypography>
+                        we specialize in creating custom, high-quality websites for businesses and individuals. Our team of experts has extensive experience in website design, development, and optimization, which allows us to create websites that are not only visually appealing but also effective in driving traffic and generating leads.
+
+                        We understand that every business is unique, which is why we offer customized solutions tailored to meet the specific needs and goals of our clients. Our approach involves working closely with our clients to understand their requirements, goals, and target audience, and then creating a website that is designed to meet their needs.
+
+                        Our website design process begins with a detailed analysis of our client's business and target audience. We work closely with our clients to identify their brand identity and unique selling points, which helps us to create a website that accurately represents their business and connects with their audience.       </CustomTypography>
                 </Box>
 
             </CustomGridItem>
