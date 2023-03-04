@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import {  
-  styled, 
+import {
+  styled,
   useTheme,
   Drawer,
   Divider,
@@ -37,11 +37,11 @@ const itemList = [
     icon: <HomeIcon />,
     to: "/"
   },
-  {
-    text: "About",
-    icon: <InfoIcon />,
-    to: "/about"
-  },
+  // {
+  //   text: "About",
+  //   icon: <InfoIcon />,
+  //   to: "/about"
+  // },
   {
     text: "Contact",
     icon: <EmailIcon />,
@@ -65,26 +65,26 @@ const DrawerItem = () => {
   return (
     <>
       <IconButton
-      color="inherit"
-      aria-label="open drawer"
-      edge="end"
-      onClick={handleDrawerOpen}
-      sx={{ ...(open && { display: 'none' }) }}
+        color="inherit"
+        aria-label="open drawer"
+        edge="end"
+        onClick={handleDrawerOpen}
+        sx={{ ...(open && { display: 'none' }) }}
       >
         <MenuIcon />
       </IconButton>
 
       <Drawer
-      sx={{
+        sx={{
           flexGrow: 1,
           flexShrink: 0,
           '& .MuiDrawer-paper': {
-          width: drawerWidth,
+            width: drawerWidth,
           },
-      }}
-      variant="persistent"
-      anchor="right"
-      open={open}
+        }}
+        variant="persistent"
+        anchor="right"
+        open={open}
       >
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
@@ -93,28 +93,28 @@ const DrawerItem = () => {
         </DrawerHeader>
         <Divider />
         <List>
-          {itemList.map( ( item ) => {
+          {itemList.map((item) => {
             const { text } = item;
-            return(
-              <ListItem 
-              key={text} 
-              component={Link} 
-              to={item.to}
-              sx={{
-                color: '#414141',
-                "&:hover": {
-                  backgroundColor: '#e9e5e5',
-                  color: '#1c2859',
-                }
-              }}
-              >
-                <ListItemIcon
+            return (
+              <ListItem
+                key={text}
+                component={Link}
+                to={item.to}
                 sx={{
-                  "&:hover":{
-                    backgroundColor: 'transparent',
+                  color: '#414141',
+                  "&:hover": {
+                    backgroundColor: '#e9e5e5',
                     color: '#1c2859',
                   }
                 }}
+              >
+                <ListItemIcon
+                  sx={{
+                    "&:hover": {
+                      backgroundColor: 'transparent',
+                      color: '#1c2859',
+                    }
+                  }}
                 >
                   {item.icon}
                 </ListItemIcon>
