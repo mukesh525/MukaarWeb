@@ -98,7 +98,7 @@ const GetStarted = () => {
                     <CustomTypography>
                         It’s really high time for your business to adopt the latest and most modern technologies, like mobile applications etc. And if you are really passionate about the growth of your business and keep in pace with the latest technological advancements, it demands a perfectly crafted mobile application.
 
-                        INK IT Solutions will be your perfect companion in developing that efficient and user friendly mobile applications for your business. We have more than a decade experience in developing mobile applications in both Android and iOS platforms.Our dynamic and energetic mobile application development team will be always at your doorstep in creating the best-in-class mobile apps.   </CustomTypography>
+                        Mukaar Technologies will be your perfect companion in developing that efficient and user friendly mobile applications for your business. We have more than a decade experience in developing mobile applications in both Android and iOS platforms.Our dynamic and energetic mobile application development team will be always at your doorstep in creating the best-in-class mobile apps.   </CustomTypography>
                 </Box>
             </CustomGridItem>
         </Grid>
