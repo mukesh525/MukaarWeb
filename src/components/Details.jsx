@@ -13,20 +13,20 @@ const Details = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+
         const data = new FormData(event.currentTarget);
         axios.post("http://mukaar.com/v1/api/contact", {
             email: data.get('email'),
             phone: data.get('phone')
         })
             .then((response) => {
-                alert(response.message)
+                //console.log(response)
+                alert(response.data.message)
+                window.location.href = 'http://mukaar.com';
             });
 
 
-        console.log({
-            email: data.get('email'),
-            phone: data.get('phone'),
-        });
+
     }
 
 
