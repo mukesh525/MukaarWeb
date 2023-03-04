@@ -7,8 +7,8 @@ import {
 } from '@mui/material'
 import Title from './Title'
 // img
-import imgDetail from '../assets/pexels-alex-staudinger-1732414.jpg';
-import imgDetail2 from '../assets/pexels-pixabay-271816.jpg';
+import imgDetail from '../assets/website.jpeg';
+import imgDetail2 from '../assets/Mobile-App.png';
 
 
 const GetStarted = () => {
@@ -47,14 +47,12 @@ const GetStarted = () => {
                 >
                     <Title
                         text={
-                            'Simplifying complexity with software solutions.'
+                            'Building your online presence, one site at a time.'
                         }
                         textAlign={'start'}
                     />
                     <CustomTypography>
-                        Listing are updated continuously so you<br />
-                        won't miss out on homes that just hit<br />
-                        market until you find your perfect home.
+                        Our team of experienced designers and developers work closely with you to understand your vision and create a custom design that reflects your brand and messaging. We use the latest web development technologies to ensure that your site is fast, secure, and optimized for search engines.
                     </CustomTypography>
                 </Box>
 
@@ -92,14 +90,13 @@ const GetStarted = () => {
                 >
                     <Title
                         text={
-                            'Building the future with software technology'
+                            'Transforming your ideas into mobile reality.'
 
                         }
                         textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our verified partner Agents are local experts who<br />
-                        earn an average of 4.8/5 stars from buyers and sellers.
+                        Whether you're a startup looking to launch a new app or an established business looking to enhance your mobile presence, we have the expertise to deliver a solution that exceeds your expectations. We use the latest mobile development technologies to ensure that your app is fast, secure, and user-friendly.
                     </CustomTypography>
                 </Box>
             </CustomGridItem>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, styled, Typography } from "@mui/material";
 import { Link } from 'react-router-dom'
 //img
-import headerImg from '../assets/pexels-binyamin-mellish-186078.png'
+import headerImg from '../assets/it.png'
 
 const Header = () => {
 
@@ -130,7 +130,7 @@ const Header = () => {
                     src={headerImg}
                     alt="headerImg"
                     style={{
-                        width: "100%",
+                        width: "90%",
                         marginBottom: -15,
                     }}
                 />

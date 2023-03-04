@@ -45,29 +45,32 @@ const Footer = () => {
       <StackColumn>
         <FooterTitle text={'address'} />
         <FooterLink
-          text={'15th Louis St, london 92382, eng'}
+          text={'Candeur Landmark'}
         />
         <FooterLink
-          text={'25 999-345-10800'}
+          text={'Bangalore 560087,India'}
         />
         <FooterLink
-          text={'info@housesales.com'}
+          text={'PH: 08068447692'}
+        />
+        <FooterLink
+          text={'support@mukaar.com'}
         />
       </StackColumn>
 
       <StackColumn>
         <FooterTitle text={'our services'} />
-        <FooterLink text={'buy house'} />
-        <FooterLink text={'sell house'} />
-        <FooterLink text={'rent house'} />
-        <FooterLink text={'build house'} />
+        <FooterLink text={'Website Building'} />
+        <FooterLink text={'Mobile Application'} />
+        <FooterLink text={'Managing Servers'} />
+        <FooterLink text={'Digital marketing'} />
       </StackColumn>
-      <StackColumn>
+      {/* <StackColumn>
         <FooterTitle text={'our company'} />
         <FooterLink text={'reporting'} />
         <FooterLink text={'get in touch'} />
         <FooterLink text={'management'} />
-      </StackColumn>
+      </StackColumn> */}
 
       <StackColumn>
         <FooterTitle text={'Mukaar'} />
@@ -87,7 +90,7 @@ const Footer = () => {
           >
             <InstagramIcon />
           </Link>
-          <Link href="#" variant="body2"
+          <Link href="https://www.facebook.com/mukaarTech" variant="body2"
             sx={{
               color: '#414141',
               "&:hover": {
@@ -102,7 +105,7 @@ const Footer = () => {
           variant='caption'
           component='p'
         >
-          &copy; 2022 HBSales Inc.
+          &copy; 2022 Mukaar Inc.
         </Typography>
       </StackColumn>
     </BoxRow>

@@ -35,10 +35,10 @@ const itemList = [
         text: "Home",
         to: "/"
     },
-    {
-        text: "About",
-        to: "/about"
-    },
+    // {
+    //     text: "About",
+    //     to: "/about"
+    // },
     {
         text: "Contact",
         to: "/contact"
@@ -59,7 +59,7 @@ const Navbar = () => {
         >
             <StyledToolbar>
                 <Typography
-                    variant="h6"
+                    variant="h5"
                     component="h2"
 
                 >
