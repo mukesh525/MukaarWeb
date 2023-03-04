@@ -7,12 +7,22 @@ import {
 } from '@mui/material'
 import Title from './Title'
 import Paragraph from './Paragraph'
+import axios from 'axios'
 
 const Details = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
+        axios.post("http://mukaar.com/v1/api/contact", {
+            email: data.get('email'),
+            phone: data.get('phone')
+        })
+            .then((response) => {
+                alert(response.message)
+            });
+
+
         console.log({
             email: data.get('email'),
             phone: data.get('phone'),
