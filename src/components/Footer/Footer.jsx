@@ -80,7 +80,7 @@ const Footer = () => {
           maxWidth='100%'
           justifyContent='space-between'
         >
-          <Link href="#" variant="body2"
+          <Link href="https://www.instagram.com/mukaartech/" variant="body2"
             sx={{
               color: '#414141',
               "&:hover": {
